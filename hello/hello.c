@@ -15,7 +15,7 @@ int main(){
     // stampare il messaggio con il nome digitato dallo user
     printf("\nHello\t%s\n\n\n", name);
 
-    //printf("Hello World\n\n\n");
+    printf("Hello World\n\n\n");
 
     return 0;
 }
