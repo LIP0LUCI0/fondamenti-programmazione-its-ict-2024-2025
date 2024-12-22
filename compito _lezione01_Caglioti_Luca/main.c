@@ -13,5 +13,5 @@ int main(){
 
     printf("\nBenvenuto, %s %s!", nome, cognome);
     printf("\nGrazie per aver usato il nostro programma.");
-    printf("\nTi auguriamo Buone Feste\n   *\n  ***\n ****\n*******\n  ***");
+    printf("\nTi auguriamo Buone Feste\n   *\n  ***\n *****\n*******\n  ***");
 }
