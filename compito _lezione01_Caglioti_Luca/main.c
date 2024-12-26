@@ -18,7 +18,7 @@ int main(){
     char augur_message[320]; // Array per contenere il messaggio di agurio
     augur_message[0] = '\0'; // Inizializziamo la stringa come vuota
 
-    // Creazione della lettera B e U per ogni riga
+    // Creazione dellee lettere del messaggio di augurio su ogni riga
     for(int i=0; i<5; i++){
 
         //Lettera B
