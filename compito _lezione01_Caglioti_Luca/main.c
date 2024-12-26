@@ -21,39 +21,39 @@ int main(){
     // Creazione dellee lettere del messaggio di augurio su ogni riga
     for(int i=0; i<5; i++){
 
-        //Lettera B
+        // Lettera B
         strcat(augur_message, (i==0 || i==4 || (i%2)==0? "BBBBB  " : "B    B "));
 
-        //Lettera U
+        // Lettera U
         strcat(augur_message, (i<4? "U   U " : " UUU  "));
 
-        //Lettera O
+        // Lettera O
         strcat(augur_message, (i==0 || i==4? "OOOOO " : "O   O "));
 
-        //Lettera N
+        // Lettera N
         strcat(augur_message, "N");
         strcat(augur_message, (i==0 || i==4? "   N " : (i==1? "N  N " : (i==2? " N N " : (i==3? "  NN " : "")))));
 
         //Lettera E
         strcat(augur_message, (i==0 || i==4? "EEEEE\t  " : (i%2==0? "EEEE \t  " : "E    \t  ")));
 
-        //Lettera F
+        // Lettera F
         strcat(augur_message, "F");
         strcat(augur_message, (i==0? "FFFF " : (i==2? "FF   " : "     " )));
 
-        //Lettera E
+        // Lettera E
         strcat(augur_message, (i==0 || i==4? "EEEEE " : (i%2==0? "EEEE  " : "E     ")));
 
-        //Lettera S
+        // Lettera S
         strcat(augur_message, (i==0 || i==4 || (i%2)==0? " SSSS  " : (i==1? "S      " : "     S ")));
 
-        //Lettera T
+        // Lettera T
         strcat(augur_message, (i==0 ? "TTTTT " : "  T   "));
 
-        //Lettera E
+        // Lettera E
         strcat(augur_message, (i==0 || i==4? "EEEEE\t  " : (i%2==0? "EEEE \t  " : "E    \t  ")));
 
-        //Newline per la nuova riga
+        // Newline per la nuova riga
         strcat(augur_message, "\n");
     }
 
@@ -76,6 +76,6 @@ int main(){
 
     printf("\n\n\n");
 
-   return 0;
+    return 0;
 
 }
