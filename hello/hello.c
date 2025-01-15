@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdio.h> // include output input
+#include <stdbool> // utilizzo dei bool
 //main
 /* main */
 int main(){
